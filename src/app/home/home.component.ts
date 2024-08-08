@@ -14,7 +14,7 @@ import {IProduct} from "../../shared/entities";
     NgIf
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
 export class HomeComponent {
   productService = inject(ProductService);

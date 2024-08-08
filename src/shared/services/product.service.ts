@@ -9,8 +9,4 @@ export class ProductService {
   getAllProducts() {
     return mockProducts;
   }
-
-  getProductById(id: number) {
-    return mockProducts.find(product => product.id === id);
-  }
 }
